@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "number": 1,
+            "question": "先週（せんしゅう）の金曜日（きんようび）学校（＿＿＿）のとしょかんでレポートを書（き）きました。",
+            "correct_answer": "がっこう",
+            "incorrect_answer": [
+                "がくこう",
+                "かくこう",
+                "かっこう"
+            ]
+        },
+        {
+            "number": 2,
+            "question": "今晩（＿＿＿）いっしょにビールを飲（の）みませんか。",
+            "correct_answer": "こんばん",
+            "incorrect_answer": [
+                "けさ",
+                "ゆうべ",
+                "いまばん"
+            ]
+        },
+        {
+            "number": 3,
+            "question": "新聞（＿＿＿）を読（よ）みます。それから、CDを聞（き）きます。",
+            "correct_answer": "しんぶん",
+            "incorrect_answer": [
+                "しんふん",
+                "じんぶん",
+                "じんふん"
+            ]
+        },
+        {
+            "number": 4,
+            "question": "学校（がっこう）は午後（＿＿＿）一時五十分（いちじごじゅうふん）からです。",
+            "correct_answer": "ごご",
+            "incorrect_answer": [
+                "ごぜん",
+                "ごあと",
+                "ごこ"
+            ]
+        },
+        {
+            "number": 5,
+            "question": "あの店（＿＿＿）で辞書（じしょ）を買（か）いました。",
+            "correct_answer": "みせ",
+            "incorrect_answer": [
+                "こえ",
+                "かみ",
+                "はな"
+            ]
+        }
+    ]
+}
