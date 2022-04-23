@@ -144,10 +144,10 @@ const Quiz = ({
                         bgGradient: 'linear(to-r, purple.500, red.300, red.500)'
                     }}
                     rightIcon={<MdForward />}>
-                    Next
+                    {currentQuestion > 3 ? "Submit" : "Next Quiz"}
                 </Button>
             </Box>
-        </Box >
+        </Box>
     )
 }
 

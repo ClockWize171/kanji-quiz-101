@@ -49,6 +49,56 @@
                 "かみ",
                 "はな"
             ]
+        },
+        {
+            "number": 6,
+            "question": "来月（らいげつ）一人で（＿＿＿）京都（きょうと）へ行（い）きますか。",
+            "correct_answer": "ひとりで",
+            "incorrect_answer": [
+                "いちにんで",
+                "いちひとで",
+                "いちじんで"
+            ]
+        },
+        {
+            "number": 7,
+            "question": "よる時々（ときどき）ビデオを見（＿＿＿）ます。",
+            "correct_answer": "みます",
+            "incorrect_answer": [
+                "のみます",
+                "すいます",
+                "たべます"
+            ]
+        },
+        {
+            "number": 8,
+            "question": "ちょっと休（やす）みませんか。水（＿＿＿）を飲（の）みましょう。",
+            "correct_answer": "みず",
+            "incorrect_answer": [
+                "か",
+                "こおり",
+                "うみ"
+            ]
+        },
+        {
+            "number": 9,
+            "question": "誕生日（＿＿＿）は何月何日（なんがつなんにち）ですか。",
+            "correct_answer": "たんじょうび",
+            "incorrect_answer": [
+                " たんじょうひ",
+                " たんしょうにち",
+                "たんじょうにち"
+            ]
+        },
+        {
+            "number": 10,
+            "question": "ロサンゼルスは今（いま）午前（＿＿＿）十一時（じ）です。",
+            "correct_answer": "ごぜん",
+            "incorrect_answer": [
+                "ごご",
+                "ごまえ",
+                "しょうまえ"
+            ]
         }
     ]
 }

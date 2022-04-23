@@ -18,6 +18,8 @@ const N5 = () => {
     return handleShuffle(n5Data.data)
   }, [])
 
+  console.log(dataShuffle.slice(0,5))
+
   useEffect(() => {
     setQuestions(dataShuffle)
     setOption(questions &&
@@ -25,7 +27,7 @@ const N5 = () => {
         questions[currentQuestion]?.correct_answer,
         ...questions[currentQuestion]?.incorrect_answer,
       ]))
-  }, [questions, currentQuestion, dataShuffle])
+  }, [questions, currentQuestion,dataShuffle])
 
   return (
     <Container pt={10} pb={10} maxW='container.xl'>
@@ -60,8 +62,8 @@ const N5 = () => {
           :
           (
             <Box pt={8} align='center'>
-              <Spinner size='xl' />
-            </Box>
+          <Spinner size='xl' />
+        </Box>
           )
       }
 
