@@ -56,7 +56,9 @@ const Quiz = ({
                 window.location.reload(false);
             }
         } else if (selected) {
-            setCurrentQuestion(currentQuestion + 1)
+            setTimeout(() => {
+                setCurrentQuestion(currentQuestion + 1)
+            }, 500)
         } else if (!selected) {
             setError('Please select one answer')
         }
