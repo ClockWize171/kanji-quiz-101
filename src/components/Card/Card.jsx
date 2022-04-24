@@ -24,7 +24,7 @@ const Card = ({ children, image, link, isDisabled, comingSoon }) => {
             h='30vh'
             borderRadius='xl'
             borderWidth='2px'
-            backgroundImage={image}
+            backgroundImage={comingSoon ? '' : image}
             backgroundPosition="center"
             backgroundRepeat="no-repeat" >
             <Box p='50px' w='100%'>
@@ -51,7 +51,7 @@ const Card = ({ children, image, link, isDisabled, comingSoon }) => {
                         borderColor='gray.300'
                         borderWidth='2px'
                         borderRadius='md'
-                        bgColor='red.400'>
+                        bgColor='teal.500'>
                         <Text p={2} align='center' fontWeight='bold'>
                             {comingSoon}
                         </Text>
