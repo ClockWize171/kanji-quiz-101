@@ -14,12 +14,12 @@ const Error = ({data}) => {
             whileInView={{ y: [-50, 0], opacity: [0, 1] }}>
             <Box
                 margin='auto'
-                w='20vw'
+                w={['70%','40%']}
                 color={isDark ? '#1A202C' : 'white'}
                 p={3}
                 borderRadius='md'
                 bg={isDark ? 'yellow.400' : 'yellow.500'}>
-                <Text fontSize='md' fontWeight='bold'>
+                <Text align='center' fontSize='md' fontWeight='bold'>
                     {data} !
                 </Text>
             </Box>

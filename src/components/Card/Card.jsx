@@ -9,11 +9,12 @@ import {
     ModalHeader,
     ModalFooter,
     ModalBody,
+    Text
 } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import { FaAngleRight, FaRegWindowClose } from "react-icons/fa";
 
-const Card = ({ children, image, link }) => {
+const Card = ({ children, image, link, isDisabled, comingSoon }) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <Box
@@ -28,18 +29,38 @@ const Card = ({ children, image, link }) => {
             backgroundRepeat="no-repeat" >
             <Box p='50px' w='100%'>
                 <Button
+                    mb={2}
+                    isDisabled={isDisabled}
                     onClick={onOpen}
                     borderColor='gray.300'
                     borderWidth='2px'
                     variant='solid'
                     boxShadow='2xl'
+                    opacity='1'
                     size='lg'
                     w='100%'
                     _hover={{ bgGradient: 'linear(to-r, red.500, red.300, purple.500)' }}
-                    bgColor='red.300'
-                    color='black'>
+                    bgColor='red.300'>
                     {children}
                 </Button>
+                {comingSoon ? (
+                    <Box
+                        boxShadow='2xl'
+                        margin='auto'
+                        w='200px'
+                        borderColor='gray.300'
+                        borderWidth='2px'
+                        borderRadius='md'
+                        bgColor='red.400'>
+                        <Text p={2} align='center' fontWeight='bold'>
+                            {comingSoon}
+                        </Text>
+                    </Box>
+                ) :
+                    (
+                        <></>
+                    )}
+
             </Box>
             <Modal
                 size='sm'

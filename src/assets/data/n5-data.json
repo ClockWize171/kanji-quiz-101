@@ -85,8 +85,8 @@
             "question": "誕生日（＿＿＿）は何月何日（なんがつなんにち）ですか。",
             "correct_answer": "たんじょうび",
             "incorrect_answer": [
-                " たんじょうひ",
-                " たんしょうにち",
+                "たんじょうひ",
+                "たんしょうにち",
                 "たんじょうにち"
             ]
         },
@@ -98,6 +98,106 @@
                 "ごご",
                 "ごまえ",
                 "しょうまえ"
+            ]
+        },
+        {
+            "number": 11,
+            "question": "いつお母さん（＿＿＿）に電話（でんわ）をかけますか。",
+            "correct_answer": "おかあさん",
+            "incorrect_answer": [
+                "おかさん",
+                "おばさん",
+                "おばあさん"
+            ]
+        },
+        {
+            "number": 12,
+            "question": "お父さん（＿＿＿）の誕生日（たんじょうび）になんをあげますか。",
+            "correct_answer": "おとうさん",
+            "incorrect_answer": [
+                "おちちさん",
+                "おじいさん",
+                "おとさん"
+            ]
+        },
+        {
+            "number": 13,
+            "question": "もう昼ご飯（＿＿＿）をたべましたか。",
+            "correct_answer": "ひるごはん",
+            "incorrect_answer": [
+                "ひまごはん",
+                "ひくごはん",
+                "ひろごはん"
+            ]
+        },
+        {
+            "number": 14,
+            "question": "ホセさんの傘（＿＿＿）はどれですか。",
+            "correct_answer": "かさ",
+            "incorrect_answer": [
+                "くつ",
+                "かみ",
+                "ふくろ"
+            ]
+        },
+        {
+            "number": 15,
+            "question": "富士山（ふじさん）は高い（＿＿＿）山（やま）です。そして、きれいな山（やま）です。",
+            "correct_answer": "たかい",
+            "incorrect_answer": [
+                "ふるい",
+                "ちいさい",
+                "ちかい"
+            ]
+        },
+        {
+            "number": 16,
+            "question": "あの赤い（＿＿＿）かばんはだれのですか。",
+            "correct_answer": "あかい",
+            "incorrect_answer": [
+                "しろい",
+                "おかい",
+                "くろい"
+            ]
+        },
+        {
+            "number": 17,
+            "question": "この町（まち）は夜（＿＿＿）とてもにぎやかですか。",
+            "correct_answer": "よる",
+            "incorrect_answer": [
+                "や",
+                "なか",
+                "ふゆ"
+            ]
+        },
+        {
+            "number": 18,
+            "question": "あのレストランは安い（＿＿＿）ですが、おいしくないです。",
+            "correct_answer": "やすい",
+            "incorrect_answer": [
+                "ちかい",
+                "たかい",
+                "あんい"
+            ]
+        },
+        {
+            "number": 19,
+            "question": "毎朝冷（まいあさつめ）たいジュースを飲みます（＿＿＿）。",
+            "correct_answer": "のみます",
+            "incorrect_answer": [
+                "たのしみます",
+                "いたみます",
+                "すみます"
+            ]
+        },
+        {
+            "number": 20,
+            "question": "パーティーでうワインを買（か）います。それから、レストランで晩ご飯（＿＿＿）を食（た）べます。",
+            "correct_answer": "ばんごはん",
+            "incorrect_answer": [
+                "あさごはん",
+                "ひるごはん",
+                "こんごはん"
             ]
         }
     ]
