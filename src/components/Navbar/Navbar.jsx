@@ -14,7 +14,6 @@ import {
   Container,
 } from '@chakra-ui/react'
 import { FaSun, FaMoon } from "react-icons/fa";
-
 import React from 'react'
 
 const Navbar = () => {
