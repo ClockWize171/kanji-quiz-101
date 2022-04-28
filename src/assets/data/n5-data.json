@@ -199,6 +199,106 @@
                 "ひるごはん",
                 "こんごはん"
             ]
+        },
+        {
+            "number": 21,
+            "question": "あなたのカメラは【大きい】（＿＿＿）ですか。",
+            "correct_answer": "おおきい",
+            "incorrect_answer": [
+                "ちいさい",
+                "ちかい",
+                "おおい"
+            ]
+        },
+        {
+            "number": 22,
+            "question": "【白い】（＿＿＿）花（はな）を買（か）いました。",
+            "correct_answer": "しろい",
+            "incorrect_answer": [
+                "あかい",
+                "くろい",
+                "あおい"
+            ]
+        },
+        {
+            "number": 23,
+            "question": "【荷物】（＿＿＿）を送（おく）ります。",
+            "correct_answer": "にもつ",
+            "incorrect_answer": [
+                "におの",
+                "にぶつ",
+                "につか"
+            ]
+        },
+        {
+            "number": 24,
+            "question": "日本（にほん）の【食べ物】（＿＿＿）はおいしいです。",
+            "correct_answer": "たべもの",
+            "incorrect_answer": [
+                "たべもつ",
+                "たべぶつ",
+                "たへもの"
+            ]
+        },
+        {
+            "number": 25,
+            "question": "銀行（ぎんこう）の右（＿＿＿）に学校（がっこう）があります。",
+            "correct_answer": "みぎ",
+            "incorrect_answer": [
+                "いし",
+                "ひだり",
+                "となり"
+            ]
+        },
+        {
+            "number": 26,
+            "question": "郵便局（ゆうびんきょく）はスーパーの【近く】（＿＿＿）にです。",
+            "correct_answer": "ちかく",
+            "incorrect_answer": [
+                "おおく",
+                "おおきく",
+                "ちいさく"
+            ]
+        },
+        {
+            "number": 27,
+            "question": "駅（えき）の前（まえ）に白（しろ）いビルがあります。そして駅（えき）の【後ろ】（＿＿＿）に大（おく）きいデパートがあります。",
+            "correct_answer": "うしろ",
+            "incorrect_answer": [
+                "ごろ",
+                "あとろ",
+                "まえろ"
+            ]
+        },
+        {
+            "number": 28,
+            "question": "テーブルの上（うえ）に【手紙】（＿＿＿）があります。",
+            "correct_answer": "てがみ",
+            "incorrect_answer": [
+                "しゅかみ",
+                "でかみ",
+                "しゅがみ"
+            ]
+        },
+        {
+            "number": 29,
+            "question": "男（おとこ）の子（こ）と女（おんな）の子（こ）の間（ま）に【犬】（＿＿＿）がいます。",
+            "correct_answer": "いぬ",
+            "incorrect_answer": [
+                "ねずみ",
+                "ねこ",
+                "か"
+            ]
+        },
+        {
+            "number": 30,
+            "question": "スーパーの【中】（＿＿＿）に花屋（はなや）があります。",
+            "correct_answer": "なか",
+            "incorrect_answer": [
+                "ちゅう",
+                "よる",
+                "なま"
+            ]
         }
     ]
 }
