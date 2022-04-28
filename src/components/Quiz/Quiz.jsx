@@ -47,6 +47,8 @@ const Quiz = ({
     const cancelRef = React.useRef()
     const navigate = useNavigate()
 
+
+
     const handleNext = () => {
         setSelected()
         if (currentQuestion > 8) {
@@ -86,8 +88,14 @@ const Quiz = ({
 
     return (
         <>
-            <Box borderWidth='2px' borderRadius='lg'>
-                <Text lineHeight={9} mt={5} p={5} textAlign='center' fontSize={['lg', 'xl']} fontWeight='normal'>
+            <Box mt={3} borderWidth='2px' borderRadius='lg'>
+                <Text
+                    lineHeight={9}
+                    mt={[0, 5]}
+                    p={5}
+                    textAlign='center'
+                    fontSize={['lg', 'xl']}
+                    fontWeight='normal'>
                     {questions[currentQuestion].question}
                 </Text>
                 <Container maxW='container.md'>
@@ -159,7 +167,7 @@ const Quiz = ({
                             Quit
                         </Button>
                         <AlertDialog
-                            size='sm'
+                            size='xs'
                             isCentered
                             isOpen={isOpen}
                             leastDestructiveRef={cancelRef}
@@ -171,7 +179,7 @@ const Quiz = ({
                                         Quit to Home
                                     </AlertDialogHeader>
 
-                                    <AlertDialogBody>
+                                    <AlertDialogBody lineHeight={8}>
                                         Are you sure? You are about to leave from quiz.
                                     </AlertDialogBody>
 
@@ -179,7 +187,7 @@ const Quiz = ({
                                         <Button ref={cancelRef} onClick={onClose}>
                                             Cancel
                                         </Button>
-                                        <Button colorScheme='red' onClick={() => navigate('/')} ml={3}>
+                                        <Button leftIcon={<ImExit />} colorScheme='red' onClick={() => navigate('/')} ml={3}>
                                             Quit
                                         </Button>
                                     </AlertDialogFooter>

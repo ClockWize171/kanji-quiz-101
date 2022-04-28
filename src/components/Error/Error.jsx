@@ -18,8 +18,8 @@ const Error = ({data}) => {
                 color={isDark ? '#1A202C' : 'white'}
                 p={3}
                 borderRadius='md'
-                bg={isDark ? 'yellow.400' : 'yellow.500'}>
-                <Text align='center' fontSize='md' fontWeight='bold'>
+                bg={isDark ? 'yellow.300' : 'yellow.400'}>
+                <Text align='center' fontSize={['sm','md']} fontWeight='bold'>
                     {data} !
                 </Text>
             </Box>

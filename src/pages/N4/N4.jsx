@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import n4Data from '../../assets/data/n4-data.json'
 import { Quiz } from '../../components';
 import { motion } from 'framer-motion';
-import { Container, Text, Box, Spinner, useColorMode } from '@chakra-ui/react';
+import { Container, Text, Box, Spinner, useColorMode, useMediaQuery } from '@chakra-ui/react';
 
 const N4 = () => {
 
@@ -17,6 +17,12 @@ const N4 = () => {
   const { colorMode } = useColorMode()
   const isDark = colorMode === "dark"
 
+  // Screen Size
+  const [isNotSmallerScreen] = useMediaQuery([
+    "(min-width: 1000px)",
+    "(min-width:588px)"
+  ]);
+
   const handleShuffle = (options) => {
     return options.sort(() => Math.random() - 0.5)
   }
@@ -25,7 +31,7 @@ const N4 = () => {
     return handleShuffle(n4Data.data)
   }, [])
 
-dataShuffle.slice(0, 11)
+  dataShuffle.slice(0, 11)
 
   useEffect(() => {
     setQuestions(dataShuffle)
@@ -37,38 +43,14 @@ dataShuffle.slice(0, 11)
   }, [questions, currentQuestion, dataShuffle])
 
   return (
-    <Container pt={10} pb={10} maxW='container.xl'>
-      {
-        currentQuestion > 8 ? (
-          <>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              whileInView={{ y: [-50, 0], opacity: [0, 1] }}>
-              <Box
-                margin='auto'
-                w={['70%', '40%']}
-                color={isDark ? '#1A202C' : 'white'}
-                p={3}
-                borderRadius='md'
-                bg={isDark ? 'blue.300' : 'blue.500'}>
-                <Text align='center' fontSize='md' fontWeight='bold'>
-                  This is the last question!
-                </Text>
-                <Text align='center' fontSize='md'>
-                  Your currently score: <strong>{score}/{currentQuestion + 1}</strong>
-                </Text>
-              </Box>
-            </motion.div>
-          </>) : (
-          <>
-
-          </>)
-      }
+    <Container
+      pt={isNotSmallerScreen ? '10vh' : '4vh'}
+      pb={10}
+      maxW='container.xl'>
       {
         questions ? (
           <>
-            <Box pt='5vh' align='center'>
+            <Box align='center'>
               <Text fontSize={['3xl', '4xl']} fontWeight='bold'>
                 N4 Quiz
               </Text>
@@ -79,6 +61,38 @@ dataShuffle.slice(0, 11)
               </Text>
             </Box>
 
+            {
+              currentQuestion > 8 ? (
+                <>
+                  <motion.div
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                    whileInView={{ y: [-50, 0], opacity: [0, 1] }}>
+                    <Box
+                      margin='auto'
+                      w={['70%', '40%']}
+                      color={isDark ? '#1A202C' : 'white'}
+                      p={3}
+                      borderRadius='md'
+                      bg={isDark ? 'blue.300' : 'blue.500'}>
+                      <Text align='center' fontSize={['sm', 'md']} fontWeight='bold'>
+                        This is the last question!
+                      </Text>
+                      <Text mt={1} align='center' fontSize={['sm', 'md']}>
+                        Your current score: <strong>{score}/{currentQuestion + 1}</strong>
+                      </Text>
+                    </Box>
+                  </motion.div>
+                </>) : (
+                <>
+
+                </>)
+            }
+            <Box pt={3} align='right'>
+              <Text fontSize={['sm', 'md']}>
+                {score > 1 ? "Points:" : "Point:"} <strong>{score}</strong>
+              </Text>
+            </Box>
             <Quiz
               currentQuestion={currentQuestion}
               setCurrentQuestion={setCurrentQuestion}

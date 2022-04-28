@@ -63,7 +63,7 @@ const Card = ({ children, image, link, isDisabled, comingSoon }) => {
 
             </Box>
             <Modal
-                size='sm'
+                size='xs'
                 isCentered
                 onClose={onClose}
                 isOpen={isOpen}
@@ -71,8 +71,8 @@ const Card = ({ children, image, link, isDisabled, comingSoon }) => {
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>{children}</ModalHeader>
-                    <ModalBody>
-                        You are about to continue to the quiz. There will be 10 questions over all.
+                    <ModalBody lineHeight={8} textAlign='justify'>
+                        You are about to continue to the quiz. There will be 10 mulitple choice questions to answer.
                     </ModalBody>
                     <ModalFooter>
                         <Button
