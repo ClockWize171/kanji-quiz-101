@@ -78,7 +78,7 @@ const N5 = () => {
                         This is the last question!
                       </Text>
                       <Text mt={1} align='center' fontSize={['sm', 'md']}>
-                        Your current score: <strong>{score}</strong>
+                        Your current score: <strong>{score}/{currentQuestion + 1}</strong>
                       </Text>
                     </Box>
                   </motion.div>
@@ -89,7 +89,7 @@ const N5 = () => {
             }
             <Box pt={3} align='right'>
               <Text fontSize={['sm', 'md']}>
-                {score > 1 ? "Points:" : "Point:"} <strong>{score}/{currentQuestion + 1}</strong>
+                {score > 1 ? "Points:" : "Point:"} <strong>{score}</strong>
               </Text>
             </Box>
 
