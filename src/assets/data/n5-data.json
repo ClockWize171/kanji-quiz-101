@@ -299,6 +299,106 @@
                 "よる",
                 "なま"
             ]
+        },
+        {
+            "number": 31,
+            "question": "木（き）の下（した）に【黒い】（＿＿＿）いすがあります。",
+            "correct_answer": "くろい",
+            "incorrect_answer": [
+                "あかい",
+                "あおい",
+                "しろい"
+            ]
+        },
+        {
+            "number": 32,
+            "question": "エレベーターの【左】（＿＿＿）にとけい売（う）り場（ば）があります。",
+            "correct_answer": "ひだり",
+            "incorrect_answer": [
+                "みぎ",
+                "となり",
+                "した"
+            ]
+        },
+        {
+            "number": 33,
+            "question": "門（もん）の【外】（＿＿＿）にだれがいます。",
+            "correct_answer": "そと",
+            "incorrect_answer": [
+                "まえ",
+                "おく",
+                "なか"
+            ]
+        },
+        {
+            "number": 34,
+            "question": "朝（あさ）【早く】（＿＿＿）起（お）きます。そして夜（よる）【早く】（＿＿＿）寝（ね）ます。",
+            "correct_answer": "はやく",
+            "incorrect_answer": [
+                "ふるく",
+                "おもく",
+                "あたらしく"
+            ]
+        },
+        {
+            "number": 35,
+            "question": "私は先月（せんげつ）の十四日に【中国】（＿＿＿）から日本へ来（き）ました。",
+            "correct_answer": "ちゅうごく",
+            "incorrect_answer": [
+                "ちゅうこく",
+                "ちゅうなか",
+                "ちゅうくに"
+            ]
+        },
+        {
+            "number": 36,
+            "question": "マリアさんはダンスが【上手】（＿＿＿）です。私はダンスが下手（へた）です。",
+            "correct_answer": "じょうず",
+            "incorrect_answer": [
+                "うえて",
+                "へた",
+                "じょうしゅ"
+            ]
+        },
+        {
+            "number": 37,
+            "question": "ミラーさんはどんな食（た）べ物（もの）が【好き】（＿＿＿）ですか。",
+            "correct_answer": "すき",
+            "incorrect_answer": [
+                "いき",
+                "おき",
+                "はき"
+            ]
+        },
+        {
+            "number": 38,
+            "question": "約束（やくそく）がありますから、今晩（こんばん）は早（はや）う【帰ります】（＿＿＿）。",
+            "correct_answer": "かえります",
+            "incorrect_answer": [
+                "かります",
+                "うります",
+                "はしります"
+            ]
+        },
+        {
+            "number": 39,
+            "question": "細（こま）かい【お金】（＿＿＿）があります。",
+            "correct_answer": "おかね",
+            "incorrect_answer": [
+                "おきん",
+                "おばん",
+                "おぎん"
+            ]
+        },
+        {
+            "number": 40,
+            "question": "家族（かぞく）は【何人】（＿＿＿）ですか。",
+            "correct_answer": "なんにん",
+            "incorrect_answer": [
+                "なんひと",
+                "なんじん",
+                "なんびと"
+            ]
         }
     ]
 }
