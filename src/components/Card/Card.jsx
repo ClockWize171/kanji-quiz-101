@@ -72,7 +72,7 @@ const Card = ({ children, image, link, isDisabled, comingSoon }) => {
                 <ModalContent>
                     <ModalHeader>{children}</ModalHeader>
                     <ModalBody lineHeight={8} textAlign='justify'>
-                        You are about to continue to the quiz. There will be <strong>(10)</strong> mulitple choice questions to answer.
+                        You are about to continue to the quiz. There will be <strong>(15)</strong> mulitple choice questions to answer.
                     </ModalBody>
                     <ModalFooter>
                         <Button

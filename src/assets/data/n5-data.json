@@ -399,6 +399,106 @@
                 "なんじん",
                 "なんびと"
             ]
+        },
+        {
+            "number": 41,
+            "question": "【兄】（＿＿＿）は会社員（かいしゃいん）です。弟（おとうと）は大学生（だいがくせい）です。",
+            "correct_answer": "おに",
+            "incorrect_answer": [
+                "おね",
+                "あね",
+                "あに"
+            ]
+        },
+        {
+            "number": 42,
+            "question": "あの兄弟（きょうだい）は【一週間】（＿＿＿）に二回サッカーをします。",
+            "correct_answer": "いっしゅうかん",
+            "incorrect_answer": [
+                "いっしゅかん",
+                "いちしゅうかん",
+                "いちしゅかん"
+            ]
+        },
+        {
+            "number": 43,
+            "question": "【春】（＿＿＿）と秋（あき）とどちらがすきですか。",
+            "correct_answer": "なつ",
+            "incorrect_answer": [
+                "あき",
+                "はる",
+                "ふゆ"
+            ]
+        },
+        {
+            "number": 44,
+            "question": "夏休（なつやす）みに【姉】（＿＿＿）と国（くに）へ帰（かえ）ります。",
+            "correct_answer": "あね",
+            "incorrect_answer": [
+                "いもうと",
+                "あに",
+                "おとうと"
+            ]
+        },
+        {
+            "number": 45,
+            "question": "今年（ことし）の冬（ふゆ）はあまり【寒く】（＿＿＿）なかったです。",
+            "correct_answer": "さむく",
+            "incorrect_answer": [
+                "あつく",
+                "うすく",
+                "つめたく"
+            ]
+        },
+        {
+            "number": 46,
+            "question": "きのうの【天気】（＿＿＿）はあまりよくなかったです。",
+            "correct_answer": "てんき",
+            "incorrect_answer": [
+                "でんき",
+                "げんき",
+                "ねんき"
+            ]
+        },
+        {
+            "number": 47,
+            "question": "アイスクリームを【少し】（＿＿＿）食（た）べました。",
+            "correct_answer": "すこし",
+            "incorrect_answer": [
+                "すし",
+                "こし",
+                "おし"
+            ]
+        },
+        {
+            "number": 48,
+            "question": "ワンさんの【お姉さん】（＿＿＿）は元気（げんき）な人です。",
+            "correct_answer": "おねえさん",
+            "incorrect_answer": [
+                "おにいさん",
+                "おいもとさん",
+                "おとうさん"
+            ]
+        },
+        {
+            "number": 49,
+            "question": "東京（とうきょう）はニューヨークより人が【多い】（＿＿＿）ですか、少（すく）ないですか。",
+            "correct_answer": "おおい",
+            "incorrect_answer": [
+                "おいしい",
+                "たのしい",
+                "ちかい"
+            ]
+        },
+        {
+            "number": 50,
+            "question": "マリアさんの【お兄さん】（＿＿＿）は一ヶ月に三回（かい）映画（えいが）を見ます。",
+            "correct_answer": "おにいさん",
+            "incorrect_answer": [
+                "おにさん",
+                "おあにさん",
+                "おあにいさん"
+            ]
         }
     ]
 }

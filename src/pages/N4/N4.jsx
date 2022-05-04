@@ -62,7 +62,7 @@ const N4 = () => {
             </Box>
 
             {
-              currentQuestion > 8 ? (
+              currentQuestion > 13 ? (
                 <>
                   <motion.div
                     viewport={{ once: true }}

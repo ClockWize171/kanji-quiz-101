@@ -25,7 +25,7 @@ const N5 = () => {
     return handleShuffle(n5Data.data)
   }, [])
 
-  dataShuffle.slice(0, 11)
+  dataShuffle.slice(0, 16)
 
   useEffect(() => {
     setQuestions(dataShuffle)
@@ -61,7 +61,7 @@ const N5 = () => {
               </Text>
             </Box>
             {
-              currentQuestion > 8 ? (
+              currentQuestion > 13 ? (
                 <>
                   <motion.div
                     viewport={{ once: true }}

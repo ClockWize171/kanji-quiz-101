@@ -51,7 +51,7 @@ const Quiz = ({
 
     const handleNext = () => {
         setSelected()
-        if (currentQuestion > 8) {
+        if (currentQuestion > 13) {
             if (!selected) {
                 setError('Please select one answer')
             } else {
@@ -199,7 +199,7 @@ const Quiz = ({
                     <Spacer />
 
                     <Box p={5} align='right'>
-                        {currentQuestion > 8 ?
+                        {currentQuestion > 13 ?
                             (
                                 <Button
                                     onClick={() => handleNext()}
