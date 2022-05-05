@@ -499,6 +499,106 @@
                 "おあにさん",
                 "おあにいさん"
             ]
+        },
+        {
+            "number": 51,
+            "question": "この学校（がっかう）に【外国人】（＿＿＿）がこの何人（なんにん）いますか。",
+            "correct_answer": "がいこくじん",
+            "incorrect_answer": [
+                "がいくにじん",
+                "がいこくにん",
+                "がいくににん"
+            ]
+        },
+        {
+            "number": 52,
+            "question": "【駅】（＿＿＿）まで歩（ある）いて何分（なんぶん）かかりますか。",
+            "correct_answer": "えき",
+            "incorrect_answer": [
+                "とり",
+                "えだ",
+                "おき"
+            ]
+        },
+        {
+            "number": 53,
+            "question": "喫茶店（きっさてん）に【入りません】（＿＿＿）か。",
+            "correct_answer": "はいりません",
+            "incorrect_answer": [
+                "はしりません",
+                "いりません",
+                "おどりません"
+            ]
+        },
+        {
+            "number": 54,
+            "question": "【窓】（＿＿＿）を開（あ）けましょうか。",
+            "correct_answer": "まど",
+            "incorrect_answer": [
+                "くつ",
+                "て",
+                "かさ"
+            ]
+        },
+        {
+            "number": 55,
+            "question": "【来週】（＿＿＿）近（ちか）くの山（やま）へ花見（はなび）にいきます。",
+            "correct_answer": "らいしゅう",
+            "incorrect_answer": [
+                "せんしゅう",
+                "こんしゅう",
+                "さらいしゅう"
+            ]
+        },
+        {
+            "number": 56,
+            "question": "世界（せかい）でどこの国（くに）が一番（ばん）【広い】（＿＿＿）ですか。",
+            "correct_answer": "ひろい",
+            "incorrect_answer": [
+                "くろい",
+                "ひくい",
+                "ふかい"
+            ]
+        },
+        {
+            "number": 57,
+            "question": "毎日兄（まいにちあに）といっしょに【川】（＿＿＿＿）へ釣（つ）りにいきます。",
+            "correct_answer": "かわ",
+            "incorrect_answer": [
+                "わん",
+                "けん",
+                "がん"
+            ]
+        },
+        {
+            "number": 58,
+            "question": "妹（いもうと）は来年（らいねん）の春（はる）イギリスへ【英語】（＿＿＿）の勉強（べんきょう）に行（い）きます。",
+            "correct_answer": "えいご",
+            "incorrect_answer": [
+                "えご",
+                "えいが",
+                "えか"
+            ]
+        },
+        {
+            "number": 59,
+            "question": "今（いま）リーさんの家族（かぞく）は【映画】（＿＿＿）を見（み）ています。",
+            "correct_answer": "えいが",
+            "incorrect_answer": [
+                "まんが",
+                "はがき",
+                "えいご"
+            ]
+        },
+        {
+            "number": 60,
+            "question": "冷（つめ）たい【お茶】（＿＿＿）が飲（の）みたいです。",
+            "correct_answer": "おちゃ",
+            "incorrect_answer": [
+                "おぽん",
+                "おゆ",
+                "おなか"
+            ]
         }
     ]
 }
